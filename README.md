@@ -16,7 +16,7 @@ Hardware:
 * Raspberry Pi Camera Module 2 (or other WebCam)
 * USB 2.0 Cable Type A/B
 
-Documents
+Documents:
 
 <p align="center">
 <table>
@@ -24,7 +24,7 @@ Documents
         <tr>
             <th align="center">File Name</th>
             <th align="center">Language</th>
-            <th align="center">Function</th>
+            <th align="center">Function/Support</th>
             <th align="center">Purpose</th>
         </tr>
     </thead>
