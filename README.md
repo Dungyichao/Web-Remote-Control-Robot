@@ -39,7 +39,7 @@ Documents
             <td align="left">Streaming server, serving MJPEG to client web browser</td>
         </tr>    
         <tr>
-            <td align="center">mjpeg_server.py</td>
+            <td align="center">picam.py</td>
             <td align="center">Python</td>
             <td align="left">Communicate with Raspberry Pi Camera Module, output to mjpeg_server.c</td>
         </tr>  
