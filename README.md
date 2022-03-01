@@ -9,7 +9,11 @@ https://user-images.githubusercontent.com/25232370/156177097-bd422ee5-63b7-4501-
 
 
 ### Hardware and Documents you need to have <br />
-
+Hardware:
+* Tinkerkit Braccio Robot
+* Arduino UNO Rev3
+* Raspberry Pi 3 Model B+
+* Raspberry Pi Camera Module 2 (or other WebCam)
 
 # 2. System Design
 Please review the following system structure of our remote control robot design <br />
