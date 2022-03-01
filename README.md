@@ -59,9 +59,19 @@ Documents
             <td align="left">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond to robot_server.py. </td>
         </tr>
         <tr>
-            <td align="center">Web files</td>
-            <td align="center">html, css, js</td>
-            <td align="left">Web pages </td>
+            <td align="center">index.html</td>
+            <td align="center">HTML</td>
+            <td align="left">Web pages</td>
+        </tr>
+        <tr>
+            <td align="center">mystyle.css</td>
+            <td align="center">CSS</td>
+            <td align="left">Web pages style</td>
+        </tr>
+        <tr>
+            <td align="center">robot.js</td>
+            <td align="center">Javascript</td>
+            <td align="left">Web pages functions</td>
         </tr>
     </tbody>
 </table>
