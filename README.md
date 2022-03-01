@@ -14,6 +14,7 @@ Hardware:
 * Arduino UNO Rev3
 * Raspberry Pi 3 Model B+
 * Raspberry Pi Camera Module 2 (or other WebCam)
+* USB 2.0 Cable Type A/B
 
 # 2. System Design
 Please review the following system structure of our remote control robot design <br />
