@@ -14,6 +14,6 @@ https://user-images.githubusercontent.com/25232370/156177097-bd422ee5-63b7-4501-
 # 2. System Design
 Please review the following system structure of our remote control robot design <br />
 <p align="center">
-<img src="/image/system_structure.png" height="70%" width="70%">
+<img src="/image/system_structure.png" height="100%" width="100%">
 </p>
 
