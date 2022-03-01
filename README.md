@@ -31,37 +31,37 @@ Documents
         <tr>
             <td align="center">http_server.c</td>
             <td align="center">C</td>
-            <td align="center">Web server, serving the web page to client web browser</td>
+            <td align="left">Web server, serving the web page to client web browser</td>
         </tr>
         <tr>
             <td align="center">mjpeg_server.c</td>
             <td align="center">C</td>
-            <td align="center">Streaming server, serving MJPEG to client web browser</td>
+            <td align="left">Streaming server, serving MJPEG to client web browser</td>
         </tr>    
         <tr>
             <td align="center">mjpeg_server.py</td>
             <td align="center">Python</td>
-            <td align="center">Communicate with Raspberry Pi Camera Module, output to mjpeg_server.c</td>
+            <td align="left">Communicate with Raspberry Pi Camera Module, output to mjpeg_server.c</td>
         </tr>  
         <tr>
             <td align="center">robot_server.py</td>
             <td align="center">Python</td>
-            <td align="center">Listen from http_server.c. Output command to Arduino UNO through serial. Respond to http_server.c. </td>
+            <td align="left">Listen from http_server.c. Output command to Arduino UNO through serial. Respond to http_server.c. </td>
         </tr>  
         <tr>
             <td align="center">utility.py</td>
             <td align="center">Python</td>
-            <td align="center">Some function for robot_server.py</td>
+            <td align="left">Some function for robot_server.py</td>
         </tr>  
         <tr>
             <td align="center">arduino_braccio.ino</td>
             <td align="center">C</td>
-            <td align="center">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond to robot_server.py. </td>
+            <td align="left">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond to robot_server.py. </td>
         </tr>
         <tr>
             <td align="center">Web files</td>
             <td align="center">html, css, js</td>
-            <td align="center">Web pages </td>
+            <td align="left">Web pages </td>
         </tr>
     </tbody>
 </table>
