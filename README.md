@@ -63,7 +63,7 @@ Documents:
             <td align="center">arduino_braccio.ino</td>
             <td align="center">C</td>
             <td align="center">Robot Control</td>
-            <td align="left">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond to robot_server.py. This programming is uploaded to Arduino </td>
+            <td align="left">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond motor status to robot_server.py. This programming is uploaded to Arduino </td>
         </tr>
         <tr>
             <td align="center">index.html</td>
