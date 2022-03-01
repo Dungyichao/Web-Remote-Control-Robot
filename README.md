@@ -8,13 +8,65 @@ https://user-images.githubusercontent.com/25232370/156177097-bd422ee5-63b7-4501-
 
 
 
-### Hardware and Documents you need to have <br />
+## 1.1 Hardware and Documents you need to have <br />
 Hardware:
 * Tinkerkit Braccio Robot
 * Arduino UNO Rev3
 * Raspberry Pi 3 Model B+
 * Raspberry Pi Camera Module 2 (or other WebCam)
 * USB 2.0 Cable Type A/B
+
+Documents
+
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">File Name</th>
+            <th align="center">Language</th>
+            <th align="center">Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">http_server.c</td>
+            <td align="center">C</td>
+            <td align="center">Web server, serving the web page to client web browser</td>
+        </tr>
+        <tr>
+            <td align="center">mjpeg_server.c</td>
+            <td align="center">C</td>
+            <td align="center">Streaming server, serving MJPEG to client web browser</td>
+        </tr>    
+        <tr>
+            <td align="center">mjpeg_server.py</td>
+            <td align="center">Python</td>
+            <td align="center">Communicate with Raspberry Pi Camera Module, output to mjpeg_server.c</td>
+        </tr>  
+        <tr>
+            <td align="center">robot_server.py</td>
+            <td align="center">Python</td>
+            <td align="center">Listen from http_server.c. Output command to Arduino UNO through serial. Respond to http_server.c. </td>
+        </tr>  
+        <tr>
+            <td align="center">utility.py</td>
+            <td align="center">Python</td>
+            <td align="center">Some function for robot_server.py</td>
+        </tr>  
+        <tr>
+            <td align="center">arduino_braccio.ino</td>
+            <td align="center">C</td>
+            <td align="center">Listen from robot_server.py through serial. Output to Tinkerkit Braccio Robot. Respond to robot_server.py. </td>
+        </tr>
+        <tr>
+            <td align="center">Web files</td>
+            <td align="center">html, css, js</td>
+            <td align="center">Web pages </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
 
 # 2. System Design
 Please review the following system structure of our remote control robot design <br />
