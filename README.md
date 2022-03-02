@@ -96,6 +96,6 @@ Please review the following system structure of our remote control robot design 
 
 ## 2.1 Hardware Connection
 <p align="center">
-<img src="/image/connection.png" height="100%" width="100%">
+<img src="/image/connection.png" height="90%" width="90%">
 </p>
 
