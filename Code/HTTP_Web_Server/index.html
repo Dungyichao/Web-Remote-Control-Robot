@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+    <head>
+        <title>Pi Cam & Robot</title>
+		<script src="robot.js"></script>
+		<link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <div width="100%" height="100%">		
+		<center><img src="http://172.16.216.206:8085/stream.mjpg" width="320" height="240"></center>
+        </div>	
+	<table>
+    	<tr>
+			<td colspan="3" align="center"><button id="1" class="button" onmousedown="toggleCheckbox('motor1+');" >+</button></td>
+			<td colspan="3" align="center"><button id="2" class="button" onmousedown="toggleCheckbox('motor2+');" >+</button></td>
+			<td colspan="3" align="center"><button id="3" class="button" onmousedown="toggleCheckbox('motor3+');" >+</button></td>
+			<td colspan="3" align="center"><button id="4" class="button" onmousedown="toggleCheckbox('motor4+');" >+</button></td>
+			<td colspan="3" align="center"><button id="5" class="button" onmousedown="toggleCheckbox('motor5+');" >+</button></td>
+			<td colspan="3" align="center"><button id="6" class="button" onmousedown="toggleCheckbox('motor6+');" >+</button></td>
+			<td colspan="3" align="center"><button id="6" class="button" onmousedown="toggleCheckbox('step_size+');" >+</button></td>
+			<td colspan="3" align="center"><button id="6" class="button" onmousedown="toggleCheckbox('refresh_robot');" >Refresh</button></td>
+		</tr>
+    	<tr>
+			<td colspan="3" align="center">Motor 1</td>
+			<td colspan="3" align="center">Motor 2</td>
+			<td colspan="3" align="center">Motor 3</td>
+			<td colspan="3" align="center">Motor 4</td>
+			<td colspan="3" align="center">Motor 5</td>
+			<td colspan="3" align="center">Motor 6</td>
+			<td colspan="3" align="center">Step Size</td>
+			<td colspan="3" align="center">Option</td>
+		</tr>
+		<tr>
+			<td colspan="3" align="center" id="M1_value">0</td>
+			<td colspan="3" align="center" id="M2_value">0</td>
+			<td colspan="3" align="center" id="M3_value">0</td>
+			<td colspan="3" align="center" id="M4_value">0</td>
+			<td colspan="3" align="center" id="M5_value">0</td>
+			<td colspan="3" align="center" id="M6_value">0</td>
+			<td colspan="3" align="center" id="M7_value">0</td>
+		</tr>
+    	<tr>
+			<td colspan="3" align="center"><button id="7" class="button" onmousedown="toggleCheckbox('motor1-');" >-</button></td>
+			<td colspan="3" align="center"><button id="8" class="button" onmousedown="toggleCheckbox('motor2-');" >-</button></td>
+			<td colspan="3" align="center"><button id="9" class="button" onmousedown="toggleCheckbox('motor3-');" >-</button></td>
+			<td colspan="3" align="center"><button id="10" class="button" onmousedown="toggleCheckbox('motor4-');" >-</button></td>
+			<td colspan="3" align="center"><button id="11" class="button" onmousedown="toggleCheckbox('motor5-');" >-</button></td>
+			<td colspan="3" align="center"><button id="12" class="button" onmousedown="toggleCheckbox('motor6-');" >-</button></td>
+			<td colspan="3" align="center"><button id="6" class="button" onmousedown="toggleCheckbox('step_size-');" >-</button></td>
+			<td colspan="3" align="center"><button id="6" class="button" onmousedown="toggleCheckbox('reset_robot');" >Reset</button></td>
+		</tr>                   
+	</table>
+	<script>
+    		
+   
+	</script>
+    </body>
+</html>
