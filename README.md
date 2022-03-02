@@ -102,8 +102,9 @@ Please review the following system structure of our remote control robot design 
 </p>
 
 ## 2.3 Software Compile and Execute
-We put the Code folder under ```/home/pi/Desktop```. The command to run Http Server, Streaming Server, Robot Server are in the following image.
+We put the Code folder (provided in this repository) under Raspberry pi ```/home/pi/Desktop```. The command to run Http Server, Streaming Server, Robot Server are in the following image.
 <p align="center">
 <img src="/Code/Command_and_result.JPG" height="90%" width="90%">
 </p>
+The Arduino folder is for Arduino, not for Raspberry pi
 
