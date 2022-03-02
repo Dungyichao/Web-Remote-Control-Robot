@@ -17,7 +17,7 @@ Hardware:
 * USB 2.0 Cable Type A/B
 
 Documents:
-
+The following codes can be downloaded from this repository Code folder.
 <p align="center">
 <table>
     <thead>
@@ -88,14 +88,21 @@ Documents:
 </p>
 
 
-# 2. System Design
+# 2. System Overview
 Please review the following system structure of our remote control robot design <br />
+
+## 2.1 Concept and System Structure
 <p align="center">
 <img src="/image/system_structure.png" height="100%" width="100%">
 </p>
 
-## 2.1 Hardware Connection
+## 2.2 Hardware Connection
 <p align="center">
 <img src="/image/connection.png" height="90%" width="90%">
+</p>
+
+## 2.3 Software Compile and Execute
+<p align="center">
+<img src="/Code/Command_and_result.JPG" height="90%" width="90%">
 </p>
 
