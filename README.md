@@ -1,5 +1,5 @@
 # Web Remote Control Robot
-In this tutorial, we will show you how to control your robot manipulator through web browser. <br />
+In this tutorial, we will show you how to control your robot manipulator through web browser. We will use our handmade http web server, mjpeg streaming server, and robot server to achieve the goal. If you have not read the tutorial for [HTTP Server](https://github.com/Dungyichao/http_server), please read it first.<br />
 
 # 1. What is the Goal and what you need to have <br />
 Let's first take a look what are we going to achieve after this tutorial.<br />
