@@ -1,0 +1,12 @@
+//To execute the program for Http_Server
+$ ./http_server
+
+//To execute the program for Robot_Server
+$ python3 robot_server.py
+
+//To compile the .c file
+compile: gcc -Wall -c "%f" -lpthread  
+Build: gcc -Wall -o "%e" "%f" -lpthread  
+
+//To execute the program for Streaming_Server
+$ python picam.py | ./mjpeg_server
